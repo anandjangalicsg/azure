@@ -17,5 +17,10 @@ public class AzureApplication {
 	public String health() {
 		return "Succes";
 	}
+	
+	@GetMapping("/hello")
+	public String hello() {
+		return "hello";
+	}
 
 }
